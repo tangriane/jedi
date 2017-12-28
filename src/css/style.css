@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Starjedi;
+    src: url(starjedi/Starjedi.ttf);
+}
+@font-face {
+    font-family: Starjhol;
+    src: url(starjedi/Starjhol.ttf);
+}
+
+
+body{
+    background: url(https://i.ytimg.com/vi/_3z4nmZ_ovY/maxresdefault.jpg) no-repeat fixed;
+    max-width: 100%;
+}
+.center{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    background-color: rgba(255, 255, 255, 0.952);
+    border-collapse: collapse;
+
+}
+
+caption{
+   border-top: 1px solid black;
+   border-bottom: 1px solid black; 
+   background-color: black;
+   font:30px Starjhol, Arial, Tahoma, Sans-serif;
+   color: yellow;
+}
+td{
+    text-align: left;
+    font: 16px Starjedi,Arial, Tahoma, Sans-serif;
+}
+th{
+    text-align: right;
+    font:18px Starjedi, Arial, Tahoma, Sans-serif;
+}
+.font{
+    font:22px Starjedi, Arial, Tahoma, Sans-serif;
+}
+
+button{
+    background-color: black;
+    font:36px Starjhol, Arial, Tahoma, Sans-serif;
+    color: yellow;
+}
